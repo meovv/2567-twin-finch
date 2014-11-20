@@ -15,7 +15,6 @@
 
 .grid {
 	/*used to change things inside of the grid*/
-	background-color: pink;
 	clear: both;
   
 }
@@ -26,24 +25,6 @@
   display: table;
   clear: both;
 }
-
-.clearfix {
-	clear:both;
-}
-
-.left {
-  float:left
-}
-
-.right {
-  float:right;
-}
-
-.centered {
-  float: none;
-  margin: 0 auto;
-}
-
 
 
 [class*='column-'] {
@@ -115,8 +96,68 @@
   margin-left: 16.66%;
 }
 
+/*end of columns for grid*/
+
+
+/*helper classes*/
+
+.clearfix {
+	clear:both;
+}
+
+.left {
+  float:left
+}
+
+.right {
+  float:right;
+}
+
+.centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/*end of helper classes*/
+
+
 img {
 	width:100%;
+}
+
+.hero {
+  width:100%;
+  height: 400px; background:url(http://lorempixel.com/g/400/400/) no-repeat;
+  background-size:100%;
+  background-position:center;
+  
+}
+
+.hero img {
+	width: auto;
+}
+
+/* sticky nav 
+	header {
+  	overflow: auto;
+  	position: fixed;
+	background: #ffffff;
+  	width: 100%;
+	margin: 0 auto;
+  	max-width: 1170px;
+  	z-index: 1;
+}
+*/
+
+nav {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+textarea {
+	width: 400px;
+	height: 250px;
 }
 
 
@@ -127,6 +168,9 @@ img {
 		/*used to span everything across the screen*/
 		width: 100%;
 	}
+	[class*='offset-'] {
+  margin-left:0;
+  }
 	
 	.wrapper {
 		/*used to center the mobile website*/
@@ -136,6 +180,14 @@ img {
 	
 	.column-mobile{
 		width: 50%;
+	}
+	
+	textarea {
+		width: 100%;
+	}
+	
+	.hidden {
+		display: none;
 	}
 }
 /* CSS Document */
