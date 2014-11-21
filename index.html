@@ -9,8 +9,8 @@
 <div class="grid">
 
 <div class="hero"> 
-<div class="column-3-12 centered">
-<img src="http://placehold.it/300x300">
+<div class="column-2-12 centered">
+<img src="http://placehold.it/200x150">
 </div>
 </div>
 
@@ -18,19 +18,19 @@
 	<header>
     	<nav class="navigation">
 		<div class="column-2-12 offset-1-12">
-    	<a href="">Home</a>
+    	<a href="#home">Home</a>
     	</div>
     	<div class="column-2-12">
-    	<a href="">About</a>
+    	<a href="#products">Products</a>
     	</div>
         <div class="column-2-12">
-        <a href="">Products</a>
+        <a href="#about">About</a>
         </div>
         <div class="column-2-12">
-        <a href="">Contact</a>
+        <a href="#contact">Contact</a>
         </div>
         <div class="column-2-12">
-        <a href="">Newsfeed</a>
+        <a href="#newsfeed">Newsfeed</a>
         </div>
 		</nav>
    </header>
@@ -47,8 +47,8 @@
 
 <div class="grid">
 
-    <section class="about">
-    <h1>About</h1>
+    <section class="home">
+    <h1 id="home">About</h1>
     <div class="column-5-12 offset-1-12">
     <p>Twin Finch Roastery is an authentic micro-roastery; small, dedicated, and highly focused on quality. We have a constantly evolving, hand picked selection of fine coffee origins and delicious blends engineered to help you brew a cafe-quality cup at home.</p>
     </div>
@@ -56,14 +56,14 @@
     
     <section class="review">
     <div class="column-5-12">
-    <p>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” - Coffee Review</p>
+    <p>Our house blend was rated a 98 by coffeereview.com!</p>
     </div>
     </section>
     
     
     <section class="products">
     <div class="clearfix">
-    <h1>Products</h1>
+    <h1 id="products">Products</h1>
     </div>
     
     <!--featured flavor-->
@@ -91,6 +91,10 @@
     <div class="column-4-12">
     <input type="submit" value="Checkout">
     </div>
+    </div>
+    
+    <div class="column-5-12 offset-5-12">
+    <p>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.” - Coffee Review</p>
     </div>
     
     
@@ -163,7 +167,6 @@
     <input type="submit" value="Checkout">
     </div>
     </div>
-    </div>
     
     <div class="column-5-12">
     <img src="http://placehold.it/80x80">
@@ -190,9 +193,9 @@
 
     </section>
     
-    <section class="about-cont">
+    <section class="about">
     <div class="clearfix">
-    <h1>About our Roastery</h1>
+    <h1 id="about">About our Roastery</h1>
     </div>
     
 </div> <!--end of wrapper 1-->
@@ -213,7 +216,7 @@
     
     <section class="contact">
     <div class="clearfix">
-    <h1>Get in Touch</h1>
+    <h1 id="contact">Get in Touch</h1>
     </div>
     
     <div class="column-6-12 offset-2-12">
@@ -238,7 +241,7 @@
     </div>
     
     <div class="column-2-12">
-    <input type="submit" value="Send">
+    <button>Send</button>
     </div>
     </div>
     
@@ -252,16 +255,30 @@
     </section>
     
     <section class="newsfeed mobile-hidden">
-    <div class="clearfix">
-    <h1>Newsfeed</h1>
-    </div>
+    	<div class="clearfix">
+    		<h1 id="newsfeed">Newsfeed</h1>
+    	</div>
+    	<div class="column-4-12">
+    		<h2>Instagram</h2>
+    			<img src="http://placehold.it/300x300">
+    	</div>
+    	<div class="column-4-12">
+    		<h2>Twitter</h2>
+    			<div class="media">
+    				<img src="http://placehold.it/300">
+  						<div class="info">
+    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, maiores, animi. Earum iure est sint tempore, qui voluptates!</p>
+ 			 			</div>
+	 				</div>
+                    <div class="media">
+    				<img src="http://placehold.it/300">
+  						<div class="info">
+    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, maiores, animi. Earum iure est sint tempore, qui voluptates!</p>
+ 			 			</div>
+	 				</div>
+    	</div>
     <div class="column-4-12">
-    <img src="http://placehold.it/300x300">
-    </div>
-    <div class="column-4-12">
-    <img src="http://placehold.it/300x300">
-    </div>
-    <div class="column-4-12">
+    <h2>Facebook</h2>
     <img src="http://placehold.it/300x300">
     </div>
     
@@ -289,6 +306,7 @@
     </li>
     <li><a href="">How To Brew Article</a></li>
     </ul>
+    <h2>Visit us!</h2>
     <ul>
     <li>457 NW Market Street</li>
     <li>Seattle, Washington</li>

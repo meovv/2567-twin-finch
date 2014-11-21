@@ -127,7 +127,7 @@ img {
 
 .hero {
   width:100%;
-  height: 400px; background:url(http://lorempixel.com/g/400/400/) no-repeat;
+  height: 250px; background:url(http://lorempixel.com/g/400/400/) no-repeat;
   background-size:100%;
   background-position:center;
   
@@ -135,6 +135,7 @@ img {
 
 .hero img {
 	width: auto;
+	padding-top: 40px;
 }
 
 /* sticky nav 
@@ -154,12 +155,32 @@ nav {
 	padding-bottom: 50px;
 }
 
+.contact input {
+	width: 400px;
+}
 
 textarea {
 	width: 400px;
 	height: 250px;
 }
 
+.media img {
+	float:left;
+	margin: 1em;
+  	padding: 1em;
+	margin-right: 0.5em;
+	display: block;
+	width: 120px;
+}
+
+.info {
+	overflow: hidden;
+	padding: 0.5em;
+}
+
+footer li {
+	list-style: none;
+}
 
 
 /*code used to change css for mobile site*/
@@ -186,8 +207,12 @@ textarea {
 		width: 100%;
 	}
 	
-	.hidden {
+	.mobile-hidden {
 		display: none;
+	}
+	
+	.contact img {
+		width: auto;
 	}
 }
 /* CSS Document */
