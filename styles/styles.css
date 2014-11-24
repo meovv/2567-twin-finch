@@ -39,6 +39,83 @@
   padding-right: 0;
 }
 
+img {
+	width:100%;
+}
+
+.hero {
+  width:100%;
+  padding-top: 60px;
+  height: 250px; background:url(http://lorempixel.com/g/400/400/) no-repeat;
+  background-size:100%;
+  background-position:center;
+  
+}
+
+.hero img {
+	width: auto;
+	margin-top: 10px;
+}
+ 
+header {
+  	overflow: auto;
+  	position: fixed;
+	background: #ffffff;
+  	width: 100%;
+	margin: 0 auto;
+  	z-index: 1;
+}
+
+body {
+	margin: 0;
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav ul {
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	float: left;
+	padding-left: 20px;
+	margin: 0 auto;
+}
+
+.contact input {
+	width: 400px;
+}
+
+textarea {
+	width: 400px;
+	height: 250px;
+}
+
+.media img {
+	float:left;
+	margin: 1em;
+  	padding: 1em;
+	margin-right: 0.5em;
+	display: block;
+	width: 120px;
+}
+
+.info {
+	overflow: hidden;
+	padding: 0.5em;
+}
+
+footer li {
+	list-style: none;
+}
+
 /*columns for grid*/
 .column-1-12 {
   width: 8.33%
@@ -121,66 +198,7 @@
 /*end of helper classes*/
 
 
-img {
-	width:100%;
-}
 
-.hero {
-  width:100%;
-  height: 250px; background:url(http://lorempixel.com/g/400/400/) no-repeat;
-  background-size:100%;
-  background-position:center;
-  
-}
-
-.hero img {
-	width: auto;
-	padding-top: 40px;
-}
-
-/* sticky nav 
-	header {
-  	overflow: auto;
-  	position: fixed;
-	background: #ffffff;
-  	width: 100%;
-	margin: 0 auto;
-  	max-width: 1170px;
-  	z-index: 1;
-}
-*/
-
-nav {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.contact input {
-	width: 400px;
-}
-
-textarea {
-	width: 400px;
-	height: 250px;
-}
-
-.media img {
-	float:left;
-	margin: 1em;
-  	padding: 1em;
-	margin-right: 0.5em;
-	display: block;
-	width: 120px;
-}
-
-.info {
-	overflow: hidden;
-	padding: 0.5em;
-}
-
-footer li {
-	list-style: none;
-}
 
 
 /*code used to change css for mobile site*/
@@ -203,6 +221,10 @@ footer li {
 		width: 50%;
 	}
 	
+	nav {
+		display: inline;
+	}
+	
 	textarea {
 		width: 100%;
 	}
@@ -211,9 +233,14 @@ footer li {
 		display: none;
 	}
 	
-	.contact img {
-		width: auto;
+	.hero img {
+		padding-left: 90px;
 	}
+	
+	.contact img {
+		width: 20%;
+	}
+	
 }
 /* CSS Document */
 
