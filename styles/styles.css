@@ -31,12 +31,15 @@
   /* This is the rule that is defining all of the properties of the columns, it selects everything with a class name that contains 'column-' */
   float: left;
   padding-right: 0px;
-  border:1px solid black;
 }
 
 [class*='column-']:last-of-type {
   /* This selects the last column and tells it not to add padding on the right */
   padding-right: 0;
+}
+
+h1, h2, p {
+	margin-left: 10px;
 }
 
 img {
