@@ -57,7 +57,7 @@ img {
 	margin-top: 10px;
 }
  
-header {
+.navigation {
   	overflow: auto;
   	position: fixed;
 	background: #ffffff;
