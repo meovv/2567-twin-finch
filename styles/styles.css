@@ -39,7 +39,7 @@
 }
 
 h1, h2, p {
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 img {
@@ -49,7 +49,7 @@ img {
 .hero {
   width:100%;
   padding-top: 60px;
-  height: 250px; background:url(http://lorempixel.com/g/400/400/) no-repeat;
+  height: 250px; background:url(http://placehold.it/350x150) no-repeat;
   background-size:100%;
   background-position:center;
   
@@ -60,7 +60,7 @@ img {
 	margin-top: 10px;
 }
  
-.navigation {
+nav {
   	overflow: auto;
   	position: fixed;
 	background: #ffffff;
@@ -90,6 +90,16 @@ nav li {
 	float: left;
 	padding-left: 20px;
 	margin: 0 auto;
+}
+
+.products img {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.order-buttons {
+	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 .contact input {
@@ -217,7 +227,7 @@ footer li {
 	.wrapper {
 		/*used to center the mobile website*/
 		max-width: 500px;
-		padding: 0 auto;
+		margin: 0 auto;
 	}
 	
 	.column-mobile{
@@ -238,6 +248,10 @@ footer li {
 	
 	.hero img {
 		padding-left: 90px;
+	}
+	
+	.products img {
+		padding-left: 0;
 	}
 	
 	.contact img {
