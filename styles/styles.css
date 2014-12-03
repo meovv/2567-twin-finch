@@ -11,6 +11,9 @@
 	/*used to center the website*/
   max-width:960px;
   margin: 0 auto;
+  background-color: white;
+  background:rgba(255,255,255,0.7);
+  
 }
 
 .grid {
@@ -38,8 +41,30 @@
   padding-right: 0;
 }
 
+body {
+	margin: 0;
+	background-image:url(../images/website_background.jpg);
+	background-repeat: repeat
+}
+
 h1, h2, p {
 	margin-left: 15px;
+	color: #3e1d12;
+}
+
+h1 {
+	font-family: 'Crete Round', serif;
+	font-size: 36px;
+	font-weight: 100;
+	color: #2c5f5b;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Crete Round', serif;
+	font-size: 24px;
+	font-style: italic;
+	color: #DDC069;
 }
 
 img {
@@ -49,35 +74,26 @@ img {
 .hero {
   width:100%;
   padding-top: 60px;
-  height: 250px; background:url(http://placehold.it/350x150) no-repeat;
+  height: 250px; background:url(../images/hero-image.jpg) no-repeat;
   background-size:100%;
   background-position:center;
   
 }
 
 .hero img {
-	width: auto;
+	width: 250px;
 	margin-top: 10px;
 }
  
 nav {
   	overflow: auto;
   	position: fixed;
-	background: #ffffff;
+	background: #2c5f5b;
   	width: 100%;
 	margin: 0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
   	z-index: 1;
-}
-
-body {
-	margin: 0;
-}
-
-nav {
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 
 nav ul {
@@ -92,9 +108,41 @@ nav li {
 	margin: 0 auto;
 }
 
+nav a {
+	color: white;
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.home p {
+	font-family: 'Open-sans', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.products p {
+	font-family: 'Open-sans', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.quote {
+	font-family: 'Open-sans', sans-serif;
+	font-size: 18px;
+	color: #DDC069;
+}
+
 .products img {
 	padding-top: 10px;
 	padding-left: 10px;
+	width: 300px;
+}
+
+.featured-flavor img {
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 350px;
 }
 
 .order-buttons {
