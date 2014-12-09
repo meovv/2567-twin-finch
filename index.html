@@ -35,13 +35,12 @@
 </div>
 
 <div class="grid">
-<section class="home">
+<div class="home">
     	<div class="column-6-12 offset-1-12 centered">
-        	<a id="home"></a>
     		<p>Twin Finch Roastery is an authentic micro-roastery; small, dedicated, and highly focused on quality. We have a constantly evolving, hand picked selection of fine coffee origins and delicious blends engineered to help you brew a cafe-quality cup at home.</p>
          </div>
         <a id="products"></a>
-</section>
+</div>
 </div>
 
 <div class="wrapper">    
@@ -124,6 +123,7 @@
                             <input type="submit" value="Buy">
                         </div>
                     </div>
+    </div>
     </div>
     
     <div class="flavors">
@@ -216,12 +216,11 @@
 </div> <!--end of grid -->
 </div> <!--end of wrapper -->
 
-   
+<img src="images/coffee-bags.jpg" alt="shop photo">
+
+<div class="wrapper">  
 <section class="about">
-	<a id="about"></a>
-    <img src="images/coffee-bags.jpg" alt="shop photo">
-    
-<div class="wrapper">
+	<a id="about"></a>    
 <div class="grid">
 	<h1>About our Roastery</h1>
     <div class="column-5-12 offset-1-12">
@@ -233,33 +232,33 @@
     </div>
     <a id="contact"></a> 
 </div> <!--end of grid-->
-</div> <!--end of wrapper--> 
 </section>
-        
+
+     
 <section class="contact">
-<div class="wrapper">
     <h1>Get in Touch</h1>
      <div class="column-6-12 offset-2-12">
         <div class="grid">
             <div class="column-12-12">
-                <form>
-                  <input type="text" placeholder="Name">
-                </form>
+            <div class="contact-form">
+                    <form>
+                      <input type="text" placeholder="Name">
+                    </form>
+                </div>
             </div>
+        
+        <div class="column-12-12">
+            <form>
+                <input type="email" placeholder="Email">        
+            </form>
+        </div>
+    
+    	<div class="column-12-12">
+            <form>
+                <textarea>Get in touch!</textarea>
+            </form>
     	</div>
-    
-    <div class="column-12-12">
-    	<form>
-        	<input type="email" placeholder="Email">        
-        </form>
     </div>
-    
-    <div class="column-12-12">
-    	<form>
-        	<textarea>Get in touch!</textarea>
-      	</form>
-    </div>
-    
     <div class="column-2-12">
     	<button>Send</button>
     </div>
@@ -268,19 +267,16 @@
     
 <!--social icons-->
 	<div class="column-1-12">
-    	<div class="social-icons">
+    	<div class="social-icons column-mobile">
             <a href=""><img src="images/twitter-icon.svg" alt="twitter icon"></a>
             <a href=""><img src="images/facebook-icon.svg" alt="facebook icon"></a>
             <a href=""><img src="images/googleplus-icon.svg" alt="google plus icon icon"></a>
             <a href=""><img src="images/instagram-icon.svg" alt="instagram icon"></a>
     	</div>
     </div>
-</div>   <!--end of wrapper--> 
 </section>   
 
-
 <section class="newsfeed mobile-hidden">
-<div class="wrapper">
 <div class="grid">
 	<div class="clearfix">
     	<h1 id="newsfeed">Newsfeed</h1>
@@ -310,57 +306,52 @@
     		<img src="images/instagram-photo-2.jpg" alt="facebook photo">
     </div>
 
-</div> <!--end of wrapper-->
 </div> <!--end of grid-->
 </section>
 
 
 
 
-<footer>
-<div class="wrapper">
 <div class="grid">
-
+<footer>
+    
     
     <div class="column-4-12">
-    	<img src="http://placehold.it/40x40" alt="location map"> <!--Map-->
+    	<div class="mobile-hidden">
+            	<form>
+        			<input type="email" placeholder="Email">
+                	<button>Subscribe</button> 
+                </form> 		
+        </div>
+        
+        <a href="">How To Brew Article &raquo;</a> 
+        
+        <div class="location-info">
+        	<h2>Visit us!</h2>
+                <p>457 NW Market Street</p>
+                <p>Seattle, Washington</p>
+                <p>(800)555-1234</p>
+        </div>
     </div>
     
     <div class="column-4-12">
-    	<ul>
-    		<li>
-            	<form>
-        			<input type="email" placeholder="Email">
-                	<input type="submit" value="Subscribe">
-                </form>
-    		</li>
-    		<li><a href="">How To Brew Article</a></li>    		
-        </ul>
-        
-    <h2>Visit us!</h2>
-    
-    	<ul>
-    		<li>457 NW Market Street</li>
-    		<li>Seattle, Washington</li>
-    		<li>(800)555-1234</li>
-    	</ul>
+    	<img src="images/location-map.jpg" alt="location map">
     </div>
     
     <div class="column-4-12">
         <div class="logo mobile-hidden">
-            <img src="http://placehold.it/40x40" alt="twin finch logo"> <!--logo-->
+            <img src="images/twinfinch-teal.svg" alt="twin finch logo"> <!--logo-->
         </div>
     </div>
     
     <div class="column-12-12">
     	<div class="copyright mobile-hidden">
-    		<p>Copyright</p>
+    		<p>&copy; Copyright 2014</p>
     	</div>
     </div>
-    
-</div> <!--end of grid-->
-</div> <!--end of wrapper-->
 </footer>
+</div> <!--end of grid-->
+</div> <!--end of wrapper-->       
 
  </body>
 </html>

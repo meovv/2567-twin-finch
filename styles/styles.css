@@ -170,8 +170,8 @@ nav a {
 }
 
 .products input:hover {
-	color: #000000;
-	border-color: #000000;
+	color: #3f1e12;
+	border-color: #3f1e12;
 	
 }
 
@@ -266,6 +266,24 @@ textarea {
 	background: none;
 }
 
+.contact button {
+	font-family: 'Open Sans', sans-serif;
+	color: #2c5f5b;
+	width: 75px;
+	height: 30px;
+	border: solid 3px;
+	border-color: #2c5f5b;
+	background: none;
+	cursor: pointer;
+	outline-width: 0px;
+	outline: none;
+}
+
+.contact button:hover {
+	color: #000000;
+	border-color: #000000;
+}	
+
 .social-icons {
 	padding-top: 110px;
 }
@@ -303,6 +321,68 @@ textarea {
 
 footer li {
 	list-style: none;
+}
+
+footer p {
+	font-family: 'open-sans', sans-serif;
+	font-size: 12px;
+}
+
+footer form {
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 90px;
+}
+
+
+footer h2 {
+	padding-top: 40px;
+}
+
+
+
+footer input {
+	font-family: 'open-sans', sans-serif;
+	font-weight: 600;
+	border: solid 3px;
+	border-color: #2c5f5b;
+	height: 30px;
+	background: none;
+}
+
+footer button {
+	font-family: 'open-sans', sans-serif;
+	color: #2c5f5b;
+	border: solid 3px;
+	border-color: #2c5f5b;
+	height: 30px;
+	background: none;
+}
+
+footer button:hover {
+	border-color: black;
+	color: black;
+}
+	
+
+footer a {
+	font-family: 'open-sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: #ddc069;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+footer a:hover {
+	color: #3e1d12;
+}
+
+.copyright p {
+	padding-right: 10px;
+	float: right;
+	font-family: 'open-sans', sans-serif;
+	font-size: 12px;
 }
 
 /*columns for grid*/
@@ -361,6 +441,7 @@ footer li {
 .offset-2-12 {
   margin-left: 16.66%;
 }
+
 
 /*end of columns for grid*/
 
@@ -435,8 +516,9 @@ footer li {
 		margin-bottom: 10px;
 	}
 	
-	.contact img {
-		width: 20%;
+	.social-icons img {
+		width: 40px;
+		padding-bottom: 30px;
 	}
 	
 }
