@@ -71,20 +71,6 @@ h2 {
 img {
 	width:100%;
 }
-
-.hero {
-  width:100%;
-  padding-top: 60px;
-  height: 500px; background:url(../images/hero-image.jpg) no-repeat;
-  background-size:100%;
-  background-position:center;
-  
-}
-
-.hero img {
-	width: 250px;
-	margin-top: 150px;
-}
  
 nav {
   	overflow: auto;
@@ -132,13 +118,9 @@ nav a {
 	text-align: center;
 }
 
-.recognition p {
-	font-size: 14px;
-	color: #DDC069;
-}
-
 .products {
-	padding-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .products p {
@@ -212,20 +194,22 @@ nav a {
 
 .review p {
 	font-family: 'Open-sans', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	color: #DDC069;
 	padding-top: 35px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .order-buttons {
 	padding-left: 15px;
 	padding-top: 30px;
 	padding-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 .about {
 	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .about p {
@@ -319,6 +303,10 @@ textarea {
 	font-size: 12px;
 }
 
+footer {
+	padding-top: 40px;
+}
+
 footer li {
 	list-style: none;
 }
@@ -329,17 +317,10 @@ footer p {
 }
 
 footer form {
-	padding-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 90px;
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-
-
-footer h2 {
-	padding-top: 40px;
-}
-
-
 
 footer input {
 	font-family: 'open-sans', sans-serif;
@@ -371,11 +352,19 @@ footer a {
 	font-size: 14px;
 	color: #ddc069;
 	text-decoration: none;
-	padding-left: 10px;
+	padding-left: 60px;
 }
 
 footer a:hover {
 	color: #3e1d12;
+}
+
+.location-info {
+	padding-top: 200px;
+}
+
+.location-info button {
+	margin-left: 10px;
 }
 
 .copyright p {
@@ -483,8 +472,12 @@ footer a:hover {
 	
 	.wrapper {
 		/*used to center the mobile website*/
-		max-width: 500px;
+		max-width: 100%;
 		margin: 0 auto;
+	}
+	
+	body img {
+		max-width: 500px;
 	}
 	
 	.column-mobile{
@@ -493,6 +486,17 @@ footer a:hover {
 	
 	nav {
 		display: inline;
+	}
+	
+	.hero-space img {
+		margin-top: 50px;
+		margin-bottom: 0 auto;
+	}
+	
+	.home p {
+		font-size: 14px;
+		line-height: 24px;
+		padding: 10px;
 	}
 	
 	textarea {
@@ -507,19 +511,68 @@ footer a:hover {
 		padding-left: 90px;
 	}
 	
-	.products img {
-		padding-left: 0;
-	}
-	
 	.products input {
 		margin-top: 20px;
 		margin-bottom: 10px;
 	}
 	
-	.social-icons img {
-		width: 40px;
-		padding-bottom: 30px;
+	.featured-flavor h2 {
+		padding-left: 45px;
 	}
+	
+	.featured-flavor p {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+	
+	.review {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+	
+	.flavors p {
+		padding-right: 45px;
+	}
+
+	
+	.featured-flavor .order-buttons {
+		padding-left: 55px;
+	}
+	
+	.about p {
+		font-size: 14px;
+		line-height: 24px;
+		padding: 10px;
+	}
+	
+	.contact input, textarea {
+		width: 350px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	.contact button {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	
+	.social-icons img {
+		width: 60px;
+		margin-left: 30px;
+		margin-top: -20px;
+	}
+	
+	.location-info {
+		margin-top: -180px;
+	}
+	
+	footer img {
+		margin-top: -110px;
+		margin-bottom: 10px;
+		float: right;
+		width: 50%;
+	}
+	
 	
 }
 /* CSS Document */
